@@ -13,36 +13,27 @@ a {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    
 }
 
 .header-logo {
-    font-family: 'raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--navy-blue);
-}
-
-.header-logo-left {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.header-logo-part {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
 }
 
 .header-menu-link {
@@ -94,12 +85,12 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
 }
 
 .hero-btn:hover,
 .hero-btn:active {
-    background: #404bbf;
+    background-color: #404bbf;
 }
 
 .features {
@@ -130,7 +121,7 @@ a {
 }
 
 .team {
-
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -148,7 +139,7 @@ a {
 }
 
 .team-item {
-
+    background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -210,23 +201,23 @@ a {
 }
 
 .footer-logo {
-    font-family: 'raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #f4f4fd;
-}
-
-.footer-logo-left {
-    font-family: 'raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.footer-logo-part {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 
 .footer-text {
