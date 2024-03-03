@@ -89,6 +89,9 @@ a {
 }
 
 .hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404bbf;
+}
 .hero-btn:active {
     background-color: #404bbf;
 }
